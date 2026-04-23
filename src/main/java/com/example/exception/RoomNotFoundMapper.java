@@ -6,10 +6,6 @@ import javax.ws.rs.core.Response;
 import javax.ws.rs.ext.ExceptionMapper;
 import javax.ws.rs.ext.Provider;
 
-/**
- * Maps RoomNotFoundException → HTTP 404 Not Found.
- * Pattern from Tutorial Week 09 (DataNotFoundExceptionMapper).
- */
 @Provider
 public class RoomNotFoundMapper implements ExceptionMapper<RoomNotFoundException> {
 
